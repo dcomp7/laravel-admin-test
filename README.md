@@ -1,7 +1,7 @@
 
 # Laravel Admin Test
 
-A web application featuring a basic CRUD system for managing books in an administrative panel with a responsive design. This small project was created to conduct a "test drive" of Laravel Admin.
+A web application featuring a basic CRUD system for managing books in an administrative panel with a responsive design. This small project was created to perform a "test drive" of Laravel Admin.
 
 ## Dependencies
 
