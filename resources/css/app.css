@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.book__grid {
+    position: relative;
+}
+
+.book-filter {
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+
+.book-filter__query {
+    height: 34px;
+}
+
+@media screen and (max-width: 768px) {
+    .book-filter {
+        display: block;
+        position: relative;
+        right: 0;
+    }
+
+    .book-table {
+        table-layout: initial;
+    }
+
+    .book-table__wrapper {
+        overflow-x: scroll;
+    }
+}
